@@ -6,8 +6,8 @@ import os
 
 # --- Cargar el modelo y el codificador de etiquetas ---
 # Asegúrate de que las rutas a tus archivos .joblib sean correctas
-model_path = '/content/mlp_model.joblib'
-encoder_path = '/content/label_encoder (1).joblib'
+model_path = '/mlp_model.joblib'
+encoder_path = '/label_encoder (1).joblib'
 
 if not os.path.exists(model_path):
     st.error(f"Error: El archivo del modelo no se encuentra en {model_path}")
